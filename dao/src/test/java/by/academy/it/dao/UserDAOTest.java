@@ -44,7 +44,7 @@ public class UserDAOTest extends TestCase {
 
     @AfterClass
     public void testDelete() throws Exception {
-        assertNotNull(usrDao.update(usr));
+        assertNotNull(usrDao.delete(usr));
         return;
     }
 }
